@@ -1,6 +1,9 @@
-; msr.asm
-; Copyright (c) 2009-2012 mik 
-; All rights reserved.
+;*************************************************
+;* dump_msr.asm                                  *
+;* Copyright (c) 2009-2013 邓志                  *
+;* All rights reserved.                          *
+;*************************************************
+
 
 
 ;; 这个模块是关于 MSR 寄存器
@@ -65,7 +68,7 @@ do_dump_IA32_APIC_BASE:
 
 ;;** include mtrr 模块 *****
 
-%include "../lib/mtrr.asm"
+%include "..\lib\mtrr.asm"
 
 
 ;; *** MSR 模块数据 *******

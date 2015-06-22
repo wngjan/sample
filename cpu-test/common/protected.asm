@@ -3,8 +3,8 @@
 ; All rights reserved.
 
 
-%include "support.inc"
-%include "protected.inc"
+%include "../include/support.inc"
+%include "../include/protected.inc"
 
 ; 这是 protected 模块
 
@@ -290,15 +290,15 @@ get_handler_lock:
 
 
 ;********* include 模块 ********************
-%include "lib/creg.asm"
-%include "lib/cpuid.asm"
-%include "lib/msr.asm"
-%include "lib/pci.asm"
-%include "lib/apic.asm"
-%include "lib/debug.asm"
-%include "lib/perfmon.asm"
-%include "lib/page32.asm"
-%include "lib/pic8259A.asm"
+%include "../lib/creg.asm"
+%include "../lib/cpuid.asm"
+%include "../lib/msr.asm"
+%include "../lib/pci.asm"
+%include "../lib/apic.asm"
+%include "../lib/debug.asm"
+%include "../lib/perfmon.asm"
+%include "../lib/page32.asm"
+%include "../lib/pic8259A.asm"
 
 
 ;;************* 函数导入表  *****************
